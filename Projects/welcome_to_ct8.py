@@ -7,10 +7,21 @@ stage = StageClass()
 
 
 stage.set_background("winter")
-mySprite = codesters.Sprite("cardinal")
-mySprite.say("sticking out ur gyat for the rizzler ur so skibidi ur so fanum tax")
 
 
-print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
-print ("This is the new last introduction")
-mySprite2 = codesters.Sprite("baseball",-222,222)
+q1 = codesters.Square(100, 100, 200, 'blue')
+q2 = codesters.Square(-100, 100, 200, 'yellow')
+q3 = codesters.Square(-100, -100, 200, 'red')
+q4 = codesters.Square(100, -100, 200, 'green')
+
+s1 = codesters.Sprite("tramen", 100, 100)
+s1.set_size(0.15)
+s2 = codesters.Sprite("yt", -100, -100)
+s2.set_size(0.3)
+s3 = codesters.Sprite("chess", 100, -100)
+s3.set_size(0.65)
+s4 = codesters.Sprite("mario", -100, 100)
+s4.set_size(0.5)
+
+message1 = codesters.Text("Quinn Rampenthal",0,220,"red")
+message1 = codesters.Text("My favorite stuff",0,-220,"red")
