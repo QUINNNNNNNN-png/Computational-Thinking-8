@@ -1,0 +1,43 @@
+quinn_points = 0
+parker_points = 0
+
+
+answer = input("do you like to A) play video games, or B) watch youtube?\n")
+if answer =="A":
+    quinn_points += 1
+elif answer == "B":
+    parker_points += 1
+
+answer = input("Would you rather A) snowboard, or B) ski?\n")
+if answer =="A":
+    quinn_points += 1
+elif answer == "B":
+    parker_points += 1
+    
+
+answer = input("Are you the A), older sibling or B) younger sibling?\n")
+if answer =="A":
+    quinn_points += 1
+elif answer == "B":
+    parker_points += 1
+    
+    
+answer = input("are you A) a boy, or B) a girl?\n")
+if answer =="A":
+    quinn_points += 1
+elif answer == "B":
+    parker_points += 1
+    
+
+answer = input("do you like to A) use a phone, or B) use a computer?\n")
+if answer =="A":
+    quinn_points += 1
+elif answer == "B":
+    parker_points += 1
+
+
+
+if quinn_points > parker_points:
+    print("You are a lot like me")
+elif parker_points > quinn_points:
+    print("You are like my sister")

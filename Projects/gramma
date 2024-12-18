@@ -1,0 +1,6 @@
+while True:
+    word = input("What do you think gramma likes?")
+    if "t" in word:
+        print(f"Gramma doesnt like {word}")
+    else:
+        print(f"Gramma likes {word}")
