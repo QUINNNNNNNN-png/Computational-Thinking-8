@@ -1,0 +1,22 @@
+# ###############################################
+# ### SETUP ###
+import turtle
+# ###############################################
+
+
+#WHERE THE TURTLE GOES########
+t = turtle.Turtle()
+t.speed(10000)
+
+
+#SETTING UP TO DRAW###
+colors = ["red","orange","yellow","green","blue","cyan","purple","violet"]
+for i in range(10000):
+    t.color( colors[i%8])
+    t.forward(1 + i/8)
+    t.left(46)
+
+# ###############################################
+# ### ENDING ###
+turtle.exitonclick()
+# ###############################################
