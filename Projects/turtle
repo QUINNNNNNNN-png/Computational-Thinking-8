@@ -4,7 +4,7 @@ import turtle
 # ###############################################
 
 
-#WHERE THE TURTLE GOES########
+#CREATION OF TURTLE########
 t = turtle.Turtle()
 t.speed(10000)
 
