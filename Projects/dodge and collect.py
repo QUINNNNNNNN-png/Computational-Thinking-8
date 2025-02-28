@@ -36,7 +36,7 @@ player.event_collision(collision)
 #section 4
 def go_up():
     global chocolate
-    if chocolate > 0:
+    if chocolate > 0 and player.get_y() < 210:
     
         player.move_up(10)
 
@@ -44,7 +44,7 @@ player.event_key("up", go_up)
 
 def go_down():
     global chocolate
-    if chocolate > 0:
+    if chocolate > 0 and player.get_y() > -210:
     
         player.move_down(10)
 
@@ -52,7 +52,7 @@ player.event_key("down", go_down)
 
 def go_left():
     global chocolate
-    if chocolate > 0:
+    if chocolate > 0 and player.get_x() > -210:
 
         player.move_left(10)
 
@@ -60,7 +60,7 @@ player.event_key("left", go_left)
 
 def go_right():
     global chocolate
-    if chocolate > 0 and player.get_x() < 250:
+    if chocolate > 0 and player.get_x() < 210:
 
         player.move_right(10)
 
